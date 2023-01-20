@@ -2,7 +2,7 @@ day_selection = {'អាទិត្យ':1,'ចន្ទ':2,'អង្គារ'
 month_selection = {'មិគសិរ':1,'បុស្ស':2,'មាឃ':3,'ផល្គុន':4,'ចេត្រ':5,'ពិសាខ':6,'ជេស្ឋ':7,'អាសាឍ':8,'ស្រាពណ៍':9,'ភទ្របទ':10,'អស្សុជ':11,'កត្តិក':12}
 year_selection = {'ជូត':1,'ឆ្លូវ':2,'ខាល':3,'ថោះ':4,'រោង':5,'ម្សាញ់':6,'មមី':7,'មមែ':8,'វក':9,'រកា':10,'ច':11,'កុរ':12}
 
-life = ["វាសនា", "ទ្រព្យ", "ញាតិ", "មិត្ត", "បរិវារ", "សត្រូវ", "គូរព្រេង", "រោគ", "កិត្តិយស", "ការងារ", "លាភ", "អន្ដរាយ"]
+labels = ["វាសនា", "ទ្រព្យ", "ញាតិ", "មិត្ត", "បរិវារ", "សត្រូវ", "គូរព្រេង", "រោគ", "កិត្តិយស", "ការងារ", "លាភ", "អន្ដរាយ"]
 
 def fortune_teller(selected_day, selected_month, selected_year):
 
@@ -61,4 +61,8 @@ def fortune_teller(selected_day, selected_month, selected_year):
     for item in result:
         fortune.append(round((item/11)*100,2))
 
-    return(result)
+    return(result, fortune)
+
+def build_house():
+    
+    return None
