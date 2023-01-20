@@ -1,1 +1,3 @@
-# fortune_telller
+# Napotellsme
+
+## Welcome to Your Fortune Telling
